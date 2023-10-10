@@ -1,0 +1,51 @@
+
+/* Style for the parent container */
+.detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the header section */
+  #head {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the table section */
+  #tabl {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for table rows */
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style for table data cells */
+  td {
+    padding: 10px;
+  }
+  
+  /* Hover effect for table rows */
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  

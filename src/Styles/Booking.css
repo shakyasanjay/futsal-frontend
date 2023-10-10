@@ -1,0 +1,72 @@
+/* booking-calendar.css */
+
+/* Style for the container div */
+.booking-calendar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the headings */
+  .booking-calendar h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-calendar h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Style for the back to home link */
+  .booking-calendar a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Style for the selected slot paragraph */
+  .booking-calendar .selected-slot {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Style for the alert message */
+  .booking-calendar .alert {
+    color: #ff0000;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style for the calendar */
+  .rbc-calendar {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Style for the calendar event */
+  .rbc-event {
+    background-color: #007bff;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style for the calendar event when hovered */
+  .rbc-event:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the calendar slot selection */
+  .rbc-slot-selecting {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+
+  .booking-container {
+    max-width: 768px;
+    margin: auto;
+  }

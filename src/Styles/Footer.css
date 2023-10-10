@@ -1,0 +1,33 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    color: #ffffff;
+  }
+
+  
+  .contact-info,
+  .social-icons,
+  .footer-links,
+  .copyright {
+    flex: 1;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .footer-links p {
+    margin: 5px 0;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  /* Add more styling as needed */
+  
