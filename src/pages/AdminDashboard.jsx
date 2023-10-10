@@ -34,7 +34,6 @@ const AdminDashboard = () => {
     }, [])
 
     const approveBooking = async (id) => {
-
         try {
             const res = await axios.put(`${SERVER}/api/booking/${id}/booking-status`, {"status": "Booked"}, {
                 headers: {
